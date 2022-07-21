@@ -26,16 +26,24 @@ ul {
     list-style: none;
     position: relative;
     top: -50px;
+    
 
 
 }
 
-li {
+li{
     display: inline-block;
     padding-right: 20px;
-    color: #ffffff;
     font-size: 25px;
     font-style: oblique;
+}
+
+li a {
+    color: white;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.7s ease-out;
 
 }
 p {
@@ -63,9 +71,10 @@ p {
 }
 .instalarAhora{
     margin-top: -43px;
-    margin-left: 500px;
+    margin-left: 1200px;
     padding: 25px 50px 25px 50px;
     position: absolute;
+    
 }
 
 footer {
@@ -87,8 +96,10 @@ footer {
     margin-bottom: 147px;
     max-width: 650px;
     border: solid 10px #316092;
-    margin-left: 1100px;
+    margin-left: 1000px;
     margin-top: -250px;
+    transition: all 1.2s;
+    
 }
 .texto3{
     font-size: 25px;
@@ -109,6 +120,7 @@ footer {
 .imagenEjemplo1{
     max-width: 500px;
     margin: 60px;
+    transition: all 0.5s ease-out;
     /*margin-bottom: 160px;*/
 }
 .logo3{
@@ -119,4 +131,21 @@ footer {
     padding: 100px;
     color: #ffffff;
     font-size: 80px;
+}
+
+li a:hover{
+    transform: scale(1.3);
+    color: orange;
+}
+.imagenEjemplo1:hover{
+    transform: scale(1.2);
+    
+}
+
+.imagenLogo:hover{
+    transform: rotate(-10deg) scale(1.1);
+    transition: 0.4s;
+}
+.videoTutorial:hover{
+    margin-left: 1900px;
 }
