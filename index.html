@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <title>2express</title>
 
@@ -13,17 +15,31 @@
 
 <body>
   <header>
-    <nav>
-      <h1>2EXPRESS</h1>
-
-      <ul>
-
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="./secciones/Sobre Nosotros.html">Sobre Nosotros</a></li>
-        <li><a href="./secciones/Contacto.html">Contacto</a></li>
-        <li><a href="./secciones/Plugings.html">Plugings</a></li>
-        <li><a href="./secciones/Ayuda.html">Ayuda</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark fondo">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">2EXPRESS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex flex-row-reverse bd-highlight" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./secciones/Plugings.html">Plugings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./secciones/Sobre Nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="./secciones/Contacto.html">
+                Contacto
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./secciones/Ayuda.html">Ayuda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
   </header>
@@ -40,7 +56,7 @@
     <section class="facilDeUsarParaTodos">
       <p class="logo">FACIL DE USAR PARA TODOS!</p>
       <p class="texto3">Todo el mundo puede editar con "2express" por que es el editor mas facil de usar! mira este tutorial simple!</p>
-      <img class="videoTutorial" src="./img/forest.webp" alt="">
+      <section class="padreDeImagen"><img class="videoTutorial" src="./img/forest.webp" alt=""></section>
     </section>
 
     <section class="losMejoresEfectos">
@@ -63,6 +79,9 @@
     </section>
   </main>
   <footer>siguenos pa!</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 
