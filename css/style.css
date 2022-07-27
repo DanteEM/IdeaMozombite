@@ -21,7 +21,7 @@ h1 {
     margin-right: 100px;
 }
 
-ul {
+/*ul {
     text-align: right;
     list-style: none;
     position: relative;
@@ -46,6 +46,7 @@ li a {
     transition: all 0.7s ease-out;
 
 }
+*/
 p {
     text-align: center;
     margin: 100px;
